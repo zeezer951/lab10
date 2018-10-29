@@ -18,9 +18,9 @@ void concordance(string text)
 	}
 
 	vector<string> keys{};
-	for (auto key : keys)
+	for (auto kvp : keys)
 	{
-		keys.push_back(key);
+		keys.push_back(kvp.first);
 
 	}
 	sort(keys.begin(), keys.end());
